@@ -1,0 +1,28 @@
+---Task 0---
+Runtime: 0.03812146186828613 seconds
+Runtime Analysis: O(1)
+	-O(1) from indexing
+
+---Task 1---
+Runtime: 0.04076957702636719 seconds
+Runtime Analysis: O(2*n) ~= O(n)
+	-O(n)x2 from 2 independent 'for' loops
+
+---Task 2---
+Runtime: 0.03989005088806152 seconds
+Runtime Analysis: O(n)
+	-O(n) for 1 'for' loop
+
+---Task 3---
+Runtime: 0.06379890441894531 seconds
+Runtime Analysis: O(n log n)
+	- O(n)x2 from 2 'for' statements
+    	- O(n log n) from sorted() statement
+	- O(n log n) > O(n)
+
+---Task 4---
+Runtime: 0.07879018783569336 seconds
+Runtime Analysis: O(n log n)
+	- O(n)x4 from 4 'for' statements
+    	- O(n log n) from sorted() statement
+	- O(n log n) > O(n)
